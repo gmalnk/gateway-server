@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: "trend-io",
-      script: "node_modules/nodemon/bin/nodemon.js",
-      args: "--exec ts-node trend.io.ts",
+      script: "ts-node",
+      args: "trend.io.ts",
       interpreter: "none",
       watch: false,
       env: {
@@ -15,8 +15,8 @@ module.exports = {
     },
     {
       name: "checkkar",
-      script: "node_modules/nodemon/bin/nodemon.js",
-      args: "--exec ts-node checkkar.ts",
+      script: "ts-node",
+      args: "checkkar.ts",
       interpreter: "none",
       watch: false,
       env: {
@@ -28,8 +28,8 @@ module.exports = {
     },
     {
       name: "bhaitalk",
-      script: "node_modules/nodemon/bin/nodemon.js",
-      args: "--exec ts-node bhaitalk.ts",
+      script: "ts-node",
+      args: "bhaitalk.ts",
       interpreter: "none",
       watch: false,
       env: {
@@ -41,8 +41,8 @@ module.exports = {
     },
     {
       name: "all",
-      script: "node_modules/nodemon/bin/nodemon.js",
-      args: "--exec ts-node allservers.ts",
+      script: "ts-node",
+      args: "allservers.ts",
       interpreter: "none",
       watch: false,
       env: {
